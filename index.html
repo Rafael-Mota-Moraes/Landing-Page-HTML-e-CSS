@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
 
-  <body class="main-bg">
+  <body>
     <aside class="menu white-bg">
       <div class="main-content menu-content">
         <h1><a href="#home">LOGO</a></h1>
@@ -219,9 +219,36 @@
         <div class="intro-img">
           <img src="./assets/img/javascript.svg" alt="Imgem JS e CSS" />
         </div>
-        <div class="contact-form"></div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" id="first-name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="text" id="email" id="email" placeholder="email@email.com">
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" >Send Message</button>
+            </div>
+          </fieldset>
+        </div>
       </div>
     </section>
+
+    <footer class="white-bg" id="footer">
+      <p>Feito por Rafael</p>
+    </footer>
 
   </body>
 </html>
